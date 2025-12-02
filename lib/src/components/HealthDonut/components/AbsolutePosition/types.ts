@@ -1,0 +1,8 @@
+import { type PropsWithChildren } from 'react';
+
+export interface AbsolutePositionProps extends PropsWithChildren {
+    top?: string;
+    bottom?: string;
+    left?: string;
+    right?: string;
+}

@@ -1,0 +1,27 @@
+.donut {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-icon);
+
+    /* Ensure icon stays the donut */
+    z-index: 1;
+}
+
+.inverted {
+    fill: var(--color-container-default);
+
+    :is(path, line, circle, g, rect) {
+        fill: var(--color-container-default);
+    }   
+}

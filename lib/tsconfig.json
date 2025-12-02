@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "rootDir": "src",
+    "allowJs": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "noFallthroughCasesInSwitch": true,
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@components/": ["src/components/*"],
+      "@fixtures/": ["src/fixtures/*"],
+      "@shared/*": ["src/shared/*"],
+      "@tests/*": ["src/test-utils/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "exclude": ["build", "node_modules", "dist", "__mocks__", "coverage"],
+  "include": ["./declarations.d.ts", "./src/**/*", "custom.d.ts"]
+}
