@@ -18,7 +18,7 @@ This guide is designed to help you quickly set up or modify Storybook stories fo
 
 ### Step 1: Create a new fixture file
 
-Create a new file in `src/APMCelestial/fixtures/` (e.g., `nested-groups.fixture.ts`):
+Create a new file in `src/fixtures/` (e.g., `nested-groups.fixture.ts`):
 
 ```typescript
 import { NodeMap } from '../types';
@@ -350,7 +350,7 @@ export const nestedGroupsMap: NodeMap = {
 
 ### Step 2: Create a new story
 
-Add a new story to `src/APMCelestial/Celestial.stories.tsx`:
+Add a new story to `src/Celestial.stories.tsx`:
 
 ```typescript
 import type { Meta, StoryObj } from '@storybook/react';
@@ -390,7 +390,7 @@ export const NestedGroups: Story = {
 
 To modify an existing story:
 
-1. **Locate the fixture file** that contains the node map (usually in `src/APMCelestial/fixtures/`)
+1. **Locate the fixture file** that contains the node map (usually in `src/fixtures/`)
 2. **Modify the node map** to add or change groups and connections
 3. **Rebuild and restart Storybook** to see your changes
 

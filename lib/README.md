@@ -1,19 +1,6 @@
-# APMCelestial - Service Topology Visualization Library
+# OpenSearch APM Topology - Service Topology Visualization Library
 
-A React-based library for visualizing application performance monitoring (APM) service topologies and dependencies.
-
-## Features
-
-- Interactive service map visualization using @xyflow/react
-- Automatic graph layout with dagre
-- Customizable service nodes and edges
-- AWS service icons (40+ service types)
-- Health status indicators and SLI breach warnings
-- Metrics display with donut charts
-- Support for hierarchical service groupings
-- Event handlers for node and edge interactions
-- TypeScript support with full type definitions
-- Storybook component documentation
+An open-source React library for visualizing application performance monitoring (APM) service topologies and dependencies.
 
 ## Installation
 

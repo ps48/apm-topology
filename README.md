@@ -1,4 +1,4 @@
-# APM Topology
+# OpenSearch APM Topology - Service Topology Visualization Library
 
 An open-source React library for visualizing application performance monitoring (APM) service topologies and dependencies.
 
