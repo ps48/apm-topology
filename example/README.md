@@ -2,30 +2,32 @@
 
 This example demonstrates all major features of the `@opensearch/apm-topology` library in a working React application.
 
+![APM Topology Example](../assets/example-app.png)
+
 ## Features Demonstrated
 
 This example showcases:
 
-### 🎨 Visual Features
+### Visual Features
 - **AWS Service Icons**: Multiple service types (API Gateway, Lambda, DynamoDB, RDS)
 - **Health Status Indicators**: OK (green), Recovered (orange), Breached (red)
 - **Donut Charts**: Visual representation of error and fault rates
 - **SLI Breach Indicators**: Services breaching SLI thresholds
 
-### 🔄 Interactive Features
+### Interactive Features
 - **"View insights" Click Handler**: Click to view detailed node information
 - **Node Details Panel**: Shows service type, health status, and metrics
 - **Edge Click Handlers**: Click connections to see relationship details
 - **Real-time Event Log**: Track all user interactions
 - **Metrics with Percentages**: Automatic calculation of error and fault rates
 
-### 📊 Data Features
+### Data Features
 - **Service Metrics**: Latency, error rates, fault rates, request counts
 - **Health Metrics**: Status levels, error/fault percentages
 - **Connection Metrics**: Request volume, error rates between services
 - **Hierarchical Groups**: Collapsed/expanded group nodes (Analytics Services group)
 
-### 🏗️ Service Architecture
+### Service Architecture
 The example implements a realistic microservices architecture:
 - API Gateway as entry point
 - Lambda functions for business logic
@@ -228,13 +230,3 @@ cd ../lib && npm run types:check
 
 ### Styles not loading
 The library injects its CSS automatically. Make sure you're importing from the correct package.
-
-## Learn More
-
-- [Library Documentation](../lib/README.md)
-- [Main Repository README](../README.md)
-- [Storybook Documentation](../lib/.storybook/)
-
-## License
-
-Apache-2.0
