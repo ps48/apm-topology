@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import type { Meta, StoryObj } from '@storybook/react';
 import { NodeProps, ReactFlowProvider } from '@xyflow/react';
 import { Ec2Icon, LambdaIcon } from '@shared/resources/services';

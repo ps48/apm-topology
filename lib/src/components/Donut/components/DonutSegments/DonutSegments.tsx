@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { memo } from 'react';
 import { DonutSegment } from './DonutSegment';
 import { useCircleDimensions } from './use-circle-dimensions.hook';

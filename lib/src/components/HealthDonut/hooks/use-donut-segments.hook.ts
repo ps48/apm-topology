@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useMemo } from 'react';
 import { t } from '@shared/i18n/t';
 import { type Metrics } from '@shared/types/common.types';

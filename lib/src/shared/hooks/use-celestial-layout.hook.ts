@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 // src/shared/hooks/use-dagre-layout.hook.ts
 import { useCallback } from 'react';
 import Dagre from '@dagrejs/dagre';

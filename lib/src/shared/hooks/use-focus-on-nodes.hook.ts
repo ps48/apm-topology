@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 /* eslint-disable max-len */
 import { useCallback } from 'react';
 import { useReactFlow } from '@xyflow/react';

@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { PropsWithChildren } from 'react';
 
 export const GlassBackground: React.FC<PropsWithChildren> = ({ children }: PropsWithChildren) => {

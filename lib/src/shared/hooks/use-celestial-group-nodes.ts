@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useMemo } from 'react';
 import { TopologyNode, type ListServiceGroupingsOutput } from '@shared/types/sdk.types';
 import { TopologyNodeTransformer } from '@shared/transformers/celestial-node.transformer';

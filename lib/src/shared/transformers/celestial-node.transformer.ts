@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { TopologyNodeModel } from '@shared/models/topology-node.model';
 import { getIcon } from '@shared/utils/icons.utils';
 import { TopologyNodePresenter } from '@shared/presenters/topology-node.presenter';

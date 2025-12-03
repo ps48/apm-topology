@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useCallback } from 'react';
 import { useCelestialStateContext } from '@shared/contexts/CelestialStateContext';
 import { type Breadcrumb } from '../../components/BreadcrumbTrail/types';

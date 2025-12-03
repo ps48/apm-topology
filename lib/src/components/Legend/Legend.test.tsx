@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen, fireEvent } from '@testing-library/react';
 import { vi } from 'vitest';
 import { Legend } from './Legend';

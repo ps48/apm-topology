@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { Handle, Node, NodeProps, Position } from '@xyflow/react';
 import { getIcon } from '@shared/utils/icons.utils';
 import { DEFAULT_METRICS } from '@shared/constants/common.constants';

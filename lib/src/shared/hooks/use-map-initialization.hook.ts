@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useMemo } from 'react';
 import type { CelestialEdge, CelestialMapModel, CelestialNode } from '../../types';
 import {

@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { type GetServiceMapOutput } from '@shared/types/sdk.types';
 
 export const fixture: GetServiceMapOutput = {

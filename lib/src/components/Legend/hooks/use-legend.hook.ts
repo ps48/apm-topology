@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useCallback, useRef, useState } from 'react';
 import { useLegendPosition } from './use-legend-position.hook';
 import { type Position } from '../../Portal';

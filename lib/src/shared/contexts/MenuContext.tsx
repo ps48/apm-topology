@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React, { createContext, useContext, useState, useRef, useEffect, ReactNode } from 'react';
 
 type MenuPosition = {

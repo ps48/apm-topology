@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import '../../Celestial.css';
 import { Handle, Node, NodeProps, Position } from '@xyflow/react';
 import { useCallback, useRef } from 'react';

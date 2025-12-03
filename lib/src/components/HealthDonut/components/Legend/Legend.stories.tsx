@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { Meta, StoryObj } from '@storybook/react';
 import { type Metrics } from '@shared/types/common.types';
 import { Legend } from './Legend';

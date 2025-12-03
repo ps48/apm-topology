@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { Meta, StoryObj } from '@storybook/react';
 import { ApiGatewayIcon, DynamodbIcon, LambdaIcon } from '@shared/resources/services';
 import { BreadcrumbTrail } from './BreadcrumbTrail';

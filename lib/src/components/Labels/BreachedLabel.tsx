@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { SliStatusIcon } from '../SliStatusIcon';
 import { Label } from './Label';
 import { type LabelProps } from './types';

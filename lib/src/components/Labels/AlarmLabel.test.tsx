@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen } from '@tests/vitest.utilities';
 import { vi } from 'vitest';
 import { AlarmLabel } from './AlarmLabel';

@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { afterEach, expect, vi } from 'vitest';
 import '@testing-library/jest-dom';
 import * as matchers from '@testing-library/jest-dom/matchers';

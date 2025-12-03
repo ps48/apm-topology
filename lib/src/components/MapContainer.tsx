@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { Edge, Node, OnEdgesChange, OnNodesChange, ReactFlow } from '@xyflow/react';
 import React, { ReactNode } from 'react';
 import { type CelestialEdge } from '../types';

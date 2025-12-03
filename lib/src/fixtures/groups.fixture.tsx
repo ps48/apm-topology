@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { Edge, Node } from '@xyflow/react';
 import {
     ApiGatewayIcon,

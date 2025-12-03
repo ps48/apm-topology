@@ -4,7 +4,7 @@ This document describes all the features demonstrated in the example application
 
 ## Complete Feature List
 
-### 🎨 Visual Features
+### Visual Features
 
 1. **AWS Service Icons**
    - API Gateway
@@ -31,7 +31,7 @@ This document describes all the features demonstrated in the example application
    - Shows when services breach Service Level Indicators
    - Highlighted in the UI with red indicators
 
-### 🔄 Interactive Features
+### Interactive Features
 
 1. **Node Click Handlers**
    - Single-click to select and view node details
@@ -55,7 +55,7 @@ This document describes all the features demonstrated in the example application
    - Timestamps for each event
    - Shows last 10 events
 
-### 📊 Data & Metrics
+### Data & Metrics
 
 1. **Service Metrics**
    - Latency (response time in ms)
@@ -75,7 +75,7 @@ This document describes all the features demonstrated in the example application
    - Error rates on connections
    - Latency across connections
 
-### 🏗️ Architecture Features
+### Architecture Features
 
 1. **Hierarchical Groups**
    - Group node: "Analytics Services"

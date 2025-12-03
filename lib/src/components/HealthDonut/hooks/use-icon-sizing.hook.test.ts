@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook } from '@tests/vitest.utilities';
 import { INVERSE_GOLDEN_RATIO } from '@shared/constants/visual.constants';
 import { useIconSizing } from './use-icon-sizing.hook';

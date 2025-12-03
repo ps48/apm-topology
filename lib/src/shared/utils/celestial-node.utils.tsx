@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { AWS_SERVICE_NODE_TYPE } from "@shared/constants/common.constants";
 import type { TopologyNode, TopologyEdge } from "@shared/types/sdk.types";
 

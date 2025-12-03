@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import ReactDOM from 'react-dom';
 import { type PropsWithChildren, useRef } from 'react';
 import { usePortalContainer } from './use-portal-container.hook';

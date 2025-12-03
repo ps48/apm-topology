@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook, act } from '@testing-library/react';
 import { vi } from '@tests/vitest.utilities';
 import { useDelayedHover } from './use-delayed-hover.hook';

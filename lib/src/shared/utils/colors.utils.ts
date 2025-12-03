@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 export const ColorScheme = {
     containerBackgroundDefault: 'var(--color-container-default)',
     containerBackgroundBreached: 'var(--color-container-breach)',

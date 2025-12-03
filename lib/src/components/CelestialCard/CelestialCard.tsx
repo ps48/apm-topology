@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React, { useCallback, useRef } from 'react';
 import { ActionsIcon } from '@shared/resources';
 import { useCelestialNodeActionsContext } from '@shared/contexts/NodeActionsContext';

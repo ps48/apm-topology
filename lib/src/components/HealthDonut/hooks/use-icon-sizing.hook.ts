@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { INVERSE_GOLDEN_RATIO } from '@shared/constants/visual.constants';
 
 export const MIN_ICON_SIZE = 13; // Minimum allowed size for center icon

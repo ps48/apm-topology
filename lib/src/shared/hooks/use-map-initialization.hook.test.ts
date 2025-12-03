@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 import type { CelestialEdge, CelestialNode } from '../../types';

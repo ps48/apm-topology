@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React, { useRef } from 'react';
 import { useNodeRelationships, Visibility } from '@shared/hooks/use-node-relationships.hook';
 import { t } from '@shared/i18n/t';

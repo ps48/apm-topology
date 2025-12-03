@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen } from '@tests/vitest.utilities';
 import { SLI_STATUS_ICON_TEST_ID, SliStatusIcon } from './SliStatusIcon';
 

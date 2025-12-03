@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen, fireEvent, vi } from '@tests/vitest.utilities';
 import { BreadcrumbTrail } from './BreadcrumbTrail';
 

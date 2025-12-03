@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook, act, vi } from '@tests/vitest.utilities';
 import { useBreadcrumbs } from './use-breadcrumbs.hook';
 

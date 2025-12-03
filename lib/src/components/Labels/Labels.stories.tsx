@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { Meta, StoryObj } from '@storybook/react';
 import { Label } from './Label';
 import { AlarmLabel } from './AlarmLabel';

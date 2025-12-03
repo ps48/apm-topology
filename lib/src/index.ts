@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 export * from './Celestial';
 export * from './CelestialMap';
 export * from './CelestialMapWidget';

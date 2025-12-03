@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import type { Meta, StoryObj } from '@storybook/react';
 import { LoadBalancerIcon, Ec2Icon, EcsIcon, EksIcon, ApplicationIcon, K8sIcon, LambdaIcon } from '@shared/resources/services';
 import { HealthDonut } from './HealthDonut';

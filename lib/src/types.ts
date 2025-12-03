@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { type Edge, type Node } from '@xyflow/react';
 import { ReactNode } from 'react';
 import { type CelestialCardProps } from './components/CelestialCard';

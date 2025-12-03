@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { ColorSwatchProps } from './types';
 
 export const COLOR_SWATCH_TEST_ID = 'color-swatch';

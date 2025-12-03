@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React, { createContext, useContext, PropsWithChildren, useState } from 'react';
 
 interface CelestialStateContextType {

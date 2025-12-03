@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useRef } from 'react';
 import { t } from '@shared/i18n/t';
 import { useOnClickOutside } from '@shared/hooks/use-on-click-outside.hook';

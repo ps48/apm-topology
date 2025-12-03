@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { GOLDEN_RATIO, INVERSE_GOLDEN_RATIO } from './visual.constants';
 
 describe('Visual Constants', () => {

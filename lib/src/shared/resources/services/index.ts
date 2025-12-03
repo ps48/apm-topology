@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 // Service icons
 export { default as ApiGatewayIcon } from './apigateway.svg';
 export { default as ApplicationIcon } from './application.svg';

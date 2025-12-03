@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React from 'react';
 import { ReactFlow, Node, Edge, MarkerType } from '@xyflow/react';
 import { calculatePosition, DEFAULT_GRID_CONFIG, truncateToFitInWidget } from '@shared/utils/celestial-node.utils';

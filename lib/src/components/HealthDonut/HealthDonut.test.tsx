@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen } from '@tests/vitest.utilities';
 import { Ec2Icon } from '@shared/resources/services';
 import { HealthDonut, HEALTH_DONUT_TEST_ID } from './HealthDonut';

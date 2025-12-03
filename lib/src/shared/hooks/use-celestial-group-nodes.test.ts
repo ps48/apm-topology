@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { describe, it, expect } from 'vitest';
 import { renderHook } from '@testing-library/react';
 import { type ListServiceGroupingsOutput } from '@shared/types/sdk.types';

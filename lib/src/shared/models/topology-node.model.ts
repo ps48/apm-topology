@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import type { TopologyNode } from '@shared/types/sdk.types';
 import { TopologyNodePresenter } from '@shared/presenters/topology-node.presenter';
 

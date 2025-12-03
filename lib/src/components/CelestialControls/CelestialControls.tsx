@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { ZoomInIcon, ZoomOutIcon, FitViewIcon } from '@shared/resources';
 import { t } from '@shared/i18n/t';
 import { useCelestialControls } from './use-celestial-controls.hook';

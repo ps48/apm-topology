@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { GlobeIcon } from '@shared/resources';
 import { DEFAULT_METRICS } from '@shared/constants/common.constants';
 import { Breadcrumb } from './Breadcrumb';

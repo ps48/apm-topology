@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook, fireEvent, vi, type Mock } from '@tests/vitest.utilities';
 import { useOnClickOutside } from './use-on-click-outside.hook';
 

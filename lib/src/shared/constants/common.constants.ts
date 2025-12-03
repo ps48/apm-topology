@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import type { Metrics } from '@shared/types/common.types';
 
 export const DEFAULT_METRICS: Metrics = {

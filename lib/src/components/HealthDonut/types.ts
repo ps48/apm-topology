@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { type Metrics, type SloHealth } from '@shared/types/common.types';
 import { type PropsWithChildren } from 'react';
 

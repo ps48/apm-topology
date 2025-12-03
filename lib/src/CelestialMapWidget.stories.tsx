@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import type { Meta, StoryObj } from '@storybook/react';
 import { Edge } from '@xyflow/react';
 import { CelestialMapWidget, CelestialMapWidgetProps } from './CelestialMapWidget';

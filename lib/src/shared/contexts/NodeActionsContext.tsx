@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React, { createContext, useContext, PropsWithChildren, useCallback } from 'react';
 import { useFitViewWithDelay } from '@shared/hooks/use-fit-view-with-delay.hook';
 import { useReactFlow } from '@xyflow/react';

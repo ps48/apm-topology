@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useMemo } from 'react';
 import { type Metrics } from '@shared/types/common.types';
 import { type MetricPercentages } from '../types';

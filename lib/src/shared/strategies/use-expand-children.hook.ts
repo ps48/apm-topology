@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useCallback } from 'react';
 import { useReactFlow } from '@xyflow/react';
 import { useNodeRelationships, Visibility } from '@shared/hooks/use-node-relationships.hook';

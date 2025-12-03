@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 /* eslint-disable camelcase */
 import { pathOr } from 'ramda';
 import { DEFAULT_LOCALE, Locale, locale } from './locale';

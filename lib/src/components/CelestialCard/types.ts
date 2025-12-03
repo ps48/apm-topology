@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import type { Metrics, SloHealth, ChangeEvents } from '@shared/types/common.types';
 import type { StatisticReferences, AttributeMaps } from '@shared/types/sdk.types';
 

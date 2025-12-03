@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { type CelestialCardProps } from '../CelestialCard/types';
 
 export interface Breadcrumb {

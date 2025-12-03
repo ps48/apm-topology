@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook } from '@tests/vitest.utilities';
 import { useCircleDimensions } from './use-circle-dimensions.hook';
 

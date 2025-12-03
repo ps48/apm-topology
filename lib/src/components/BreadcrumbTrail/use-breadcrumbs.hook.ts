@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useState, useCallback } from 'react';
 import { t, type TId } from '@shared/i18n/t';
 import { type CelestialCardProps } from '../CelestialCard/types';

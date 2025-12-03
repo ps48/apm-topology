@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook } from '@testing-library/react';
 import { useHealthStatusColors } from './use-health-status-colors.hook';
 import { HEALTH_DONUT_COLORS, HEALTH_DONUT_STATUS } from '../constants';

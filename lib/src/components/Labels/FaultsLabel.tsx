@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { FaultsSwatch } from '../Swatches/FaultsSwatch';
 import { Label } from './Label';
 import { type LabelProps } from './types';

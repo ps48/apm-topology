@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { vi, render, screen, fireEvent, waitFor } from '@tests/vitest.utilities';
 import { CelestialNodeActionsProvider } from '@shared/contexts/NodeActionsContext';
 import { PropsWithChildren } from 'react';

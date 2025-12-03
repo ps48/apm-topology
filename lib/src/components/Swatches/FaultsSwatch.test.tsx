@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen } from '@tests/vitest.utilities';
 import { FaultsSwatch } from './FaultsSwatch';
 import { COLOR_SWATCH_TEST_ID } from './ColorSwatch';

@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { render, screen } from '@testing-library/react';
 import type { Metrics, SloHealth } from '@shared/types/common.types';
 import { Legend } from './Legend';

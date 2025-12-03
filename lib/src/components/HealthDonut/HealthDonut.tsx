@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useElementHover } from '@shared/hooks/use-element-hover.hook';
 import { HealthDonutProps } from './types';
 import { useDonutSegments } from './hooks/use-donut-segments.hook';

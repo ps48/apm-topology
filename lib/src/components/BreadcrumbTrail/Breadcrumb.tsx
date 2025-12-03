@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { DividerIcon } from '@shared/resources';
 import { PropsWithChildren } from 'react';
 

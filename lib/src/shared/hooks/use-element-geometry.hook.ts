@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 /**
  * A custom React hook that provides access to an element's geometry (dimensions and position)
  * through a ref and its bounding client rectangle. The geometry is updated when shouldRefresh changes.

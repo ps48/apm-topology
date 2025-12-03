@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { useCallback, useMemo } from 'react';
 import { type Edge, type Node, getIncomers, getOutgoers, useReactFlow } from '@xyflow/react';
 

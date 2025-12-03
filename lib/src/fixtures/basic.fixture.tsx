@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 /* eslint-disable no-console */
 import { Node } from '@xyflow/react';
 import { type Metrics } from '@shared/types/common.types';

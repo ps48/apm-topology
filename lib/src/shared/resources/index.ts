@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 // IMPORTANT: Service icons should be added to ./services/index.ts
 // The icons below are used for map controls and general UI elements
 export { default as ActionsIcon } from './actions.svg';

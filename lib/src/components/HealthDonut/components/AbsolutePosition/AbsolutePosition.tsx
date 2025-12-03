@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { type AbsolutePositionProps } from './types';
 import styles from './styles.module.css';
 

@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import { renderHook, act } from '@tests/vitest.utilities';
 import { vi } from 'vitest';
 import { useElementGeometry } from './use-element-geometry.hook';

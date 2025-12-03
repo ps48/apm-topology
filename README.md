@@ -2,20 +2,22 @@
 
 An open-source React library for visualizing application performance monitoring (APM) service topologies and dependencies.
 
+![APM Topology Example](./assets/topology-example.png)
+
 ## Overview
 
 This repository contains the `@opensearch/apm-topology` library, a standalone npm package that provides interactive visualization components for APM service maps and topologies. Originally developed as part of the OpenSearch Dashboards APM plugin, it has been extracted into an independent library for broader use.
 
 ## Features
 
-- 🎨 Interactive service map visualization using @xyflow/react
-- 📊 Automatic graph layout with dagre algorithm
-- 🎯 Customizable service nodes and edges
-- 📈 Metrics display integration
-- 🏗️ Support for hierarchical service groupings
-- 📚 Comprehensive Storybook documentation
-- 🔧 TypeScript support with full type definitions
-- ⚡ Built with modern React 18
+- Interactive service map visualization using @xyflow/react
+- Automatic graph layout with dagre algorithm
+- Customizable service nodes and edges
+- Metrics display integration
+- Support for hierarchical service groupings
+- Comprehensive Storybook documentation
+- TypeScript support with full type definitions
+- Built with modern React 18
 
 ## Installation
 
@@ -204,9 +206,3 @@ Apache-2.0
 ## Contributing
 
 This is an open-source project. Contributions are welcome!
-
-## Links
-
-- [npm package](https://www.npmjs.com/package/@opensearch/apm-topology)
-- [GitHub repository](https://github.com/opensearch-project/apm-topology)
-- [OpenSearch Project](https://opensearch.org/)

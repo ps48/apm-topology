@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 import React, { useState } from 'react';
 import { CelestialMap, getIcon } from '@opensearch/apm-topology';
 import type { CelestialMapProps, CelestialEdge } from '@opensearch/apm-topology';

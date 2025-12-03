@@ -1,3 +1,9 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
 /**
  * Converts PascalCase/TitleCase strings to sentence case with intelligent spacing
  *
