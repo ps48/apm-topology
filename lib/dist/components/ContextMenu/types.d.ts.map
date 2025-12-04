@@ -1,1 +1,0 @@
-{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/components/ContextMenu/types.ts"],"names":[],"mappings":";AAMA,MAAM,WAAW,aAAa;IAC1B,KAAK,EAAE,MAAM,CAAC;IACd,UAAU,CAAC,EAAE,OAAO,CAAC;IACrB,OAAO,EAAE,CAAC,KAAK,EAAE,KAAK,CAAC,UAAU,KAAK,IAAI,CAAC;CAC9C;AAED,MAAM,MAAM,gBAAgB,GAAG;IAC3B,MAAM,EAAE,MAAM,CAAC;IACf,OAAO,EAAE,MAAM,IAAI,CAAC;CACvB,CAAC"}

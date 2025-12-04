@@ -16,3 +16,6 @@ threat-model-output/
 consolidated-threat-model.md
 vite.config.ts.timestamp-*
 .code_cerebro
+
+# Ignore generated tarballs
+*.tgz

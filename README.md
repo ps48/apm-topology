@@ -21,8 +21,22 @@ This repository contains the `@opensearch/apm-topology` library, a standalone np
 
 ## Installation
 
+### From GitHub Releases (Current)
+
+Install directly from a GitHub Release:
+
 ```bash
-npm install @opensearch/apm-topology react react-dom
+npm install https://github.com/opensearch-project/apm-topology/releases/download/v1.0.0/opensearch-apm-topology-1.0.0.tgz
+```
+
+Or add to your `package.json`:
+
+```json
+{
+  "dependencies": {
+    "@opensearch/apm-topology": "https://github.com/opensearch-project/apm-topology/releases/download/v1.0.0/opensearch-apm-topology-1.0.0.tgz"
+  }
+}
 ```
 
 **Requirements:**
