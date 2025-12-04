@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/components/SliStatusIcon/types.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,KAAK,SAAS,EAAE,MAAM,4BAA4B,CAAC;AAE5D,MAAM,WAAW,kBAAkB;IAC/B,IAAI,EAAE,MAAM,CAAC;IACb,SAAS,CAAC,EAAE,OAAO,CAAC;IACpB,MAAM,EAAE,SAAS,CAAC;CACrB"}

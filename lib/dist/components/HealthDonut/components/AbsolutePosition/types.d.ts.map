@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../../../src/components/HealthDonut/components/AbsolutePosition/types.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,KAAK,iBAAiB,EAAE,MAAM,OAAO,CAAC;AAE/C,MAAM,WAAW,qBAAsB,SAAQ,iBAAiB;IAC5D,GAAG,CAAC,EAAE,MAAM,CAAC;IACb,MAAM,CAAC,EAAE,MAAM,CAAC;IAChB,IAAI,CAAC,EAAE,MAAM,CAAC;IACd,KAAK,CAAC,EAAE,MAAM,CAAC;CAClB"}

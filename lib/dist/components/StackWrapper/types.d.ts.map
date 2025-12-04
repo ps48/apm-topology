@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/components/StackWrapper/types.ts"],"names":[],"mappings":"AAMA,OAAO,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAElC,MAAM,WAAW,iBAAiB;IAC9B,QAAQ,EAAE,SAAS,CAAC;IACpB,mBAAmB,EAAE,MAAM,CAAC;IAC5B,YAAY,CAAC,EAAE,MAAM,CAAC;IACtB,gBAAgB,CAAC,EAAE,MAAM,CAAC;IAC1B,MAAM,CAAC,EAAE,SAAS,CAAC;IACnB,OAAO,EAAE,OAAO,CAAC;CACpB"}

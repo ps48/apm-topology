@@ -1,0 +1,116 @@
+import { TopologyNode } from '../types/sdk.types';
+import { TopologyNodePresenter } from '../presenters/topology-node.presenter';
+/**
+ * A model class that wraps a raw topology node from the SDK and provides
+ * convenience methods to access and interpret node data. This class acts as
+ * a domain layer between raw API data and application-specific business logic.
+ */
+export declare class TopologyNodeModel {
+    /** The raw topology node data from the SDK */
+    readonly node: TopologyNode;
+    /**
+     * Creates a new TopologyNodeModel instance
+     *
+     * @param node - The raw topology node data from the SDK
+     */
+    constructor(node: TopologyNode);
+    /**
+     * Gets the unique identifier of the node
+     *
+     * @returns The node's ID string
+     */
+    get id(): string;
+    /**
+     * Gets the display name of the node
+     *
+     * @returns The node's name string
+     */
+    get name(): string;
+    /**
+     * Determines if this node represents a service group rather than an individual service
+     *
+     * @returns True if the node is a service group, false otherwise
+     */
+    get isGroup(): boolean;
+    /**
+     * Gets the aggregated node identifier for this node
+     *
+     * This identifier is used to group related nodes together in aggregated views.
+     * It may be null or undefined if the node is not part of an aggregated group.
+     *
+     * @returns The aggregated node ID string, null, or undefined
+     */
+    get aggregatedNodeId(): string | null | undefined;
+    /**
+     * Determines if this node has instrumentation
+     *
+     * The definition of "instrumented" differs based on whether the node is a group:
+     * - For groups: Checks if at least one service in the group is instrumented
+     * - For services: Checks if the service itself is instrumented
+     *
+     * @returns True if the node is instrumented, false otherwise
+     */
+    get isInstrumented(): boolean;
+    /**
+     * Checks if this node has platform type information
+     *
+     * @returns True if platform type is available, false otherwise
+     */
+    get hasPlatformType(): boolean;
+    /**
+     * Checks if this node has resource type information
+     *
+     * @returns True if resource type is available, false otherwise
+     */
+    get hasResourceType(): boolean;
+    /**
+     * Gets the platform type of the node
+     *
+     * @returns The platform type string if available, undefined otherwise
+     */
+    get platform(): string;
+    /**
+     * Determines the type of the node, prioritizing:
+     * 1. PlatformType (if available)
+     * 2. ResourceType (if available)
+     * 3. Falling back to the node's Type property
+     *
+     * @returns The determined type string for this node
+     */
+    get type(): string;
+    /**
+     * Calculates the total number of services within this group
+     * Combines both instrumented and uninstrumented services
+     *
+     * @returns The total number of services, or 0 if not applicable (not a group)
+     */
+    get numberOfServices(): number;
+    /**
+     * Gets the number of uninstrumented services within this group
+     *
+     * @returns The count of uninstrumented services, or 0 if not applicable (not a group)
+     */
+    get numberOfUninstrumentedServices(): number;
+    /**
+     * Gets the group type designation for this node
+     *
+     * @returns The group type string if available, undefined otherwise
+     */
+    get groupType(): string | undefined;
+    /**
+     * Determines if this is a user-defined custom group
+     * Uses the node ID format to identify the source of the group
+     *
+     * @returns True if this is a custom group defined by a customer, false otherwise
+     */
+    get isCustomerDefinedGroup(): boolean;
+    get isDirectService(): boolean;
+    /**
+     * Creates a presenter instance for this node model
+     * Useful for formatting and transforming model data for display purposes
+     *
+     * @returns A TopologyNodePresenter instance for this node
+     */
+    get presenter(): TopologyNodePresenter;
+}
+//# sourceMappingURL=topology-node.model.d.ts.map

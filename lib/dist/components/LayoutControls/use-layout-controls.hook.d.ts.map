@@ -1,0 +1,1 @@
+{"version":3,"file":"use-layout-controls.hook.d.ts","sourceRoot":"","sources":["../../../src/components/LayoutControls/use-layout-controls.hook.ts"],"names":[],"mappings":";AAWA,MAAM,WAAW,qBAAqB;IAClC,cAAc,EAAE,CAAC,CAAC,EAAE,KAAK,CAAC,UAAU,KAAK,IAAI,CAAC;IAC9C,WAAW,EAAE,CAAC,CAAC,EAAE,KAAK,CAAC,UAAU,KAAK,IAAI,CAAC;CAC9C;AAED,eAAO,MAAM,iBAAiB,QAAO,qBA2CpC,CAAC"}
