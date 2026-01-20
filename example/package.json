@@ -11,7 +11,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "@opensearch/apm-topology": "https://github.com/ps48/apm-topology/releases/download/v1.0.0/opensearch-apm-topology-1.0.0.tgz"
+    "@opensearch/apm-topology": "npm:@ps48/apm-topology@^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

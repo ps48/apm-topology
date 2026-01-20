@@ -6,7 +6,7 @@ An open-source React library for visualizing application performance monitoring 
 
 ## Overview
 
-This repository contains the `@opensearch/apm-topology` library, a standalone npm package that provides interactive visualization components for APM service maps and topologies. Originally developed as part of the OpenSearch Dashboards APM plugin, it has been extracted into an independent library for broader use.
+This repository contains the `@ps48/apm-topology` library, a standalone npm package that provides interactive visualization components for APM service maps and topologies. Originally developed as part of the OpenSearch Dashboards APM plugin, it has been extracted into an independent library for broader use.
 
 ## Features
 
@@ -21,12 +21,8 @@ This repository contains the `@opensearch/apm-topology` library, a standalone np
 
 ## Installation
 
-### From GitHub Releases (Current)
-
-Install directly from a GitHub Release:
-
 ```bash
-npm install https://github.com/opensearch-project/apm-topology/releases/download/v1.0.0/opensearch-apm-topology-1.0.0.tgz
+npm install @ps48/apm-topology
 ```
 
 Or add to your `package.json`:
@@ -34,7 +30,7 @@ Or add to your `package.json`:
 ```json
 {
   "dependencies": {
-    "@opensearch/apm-topology": "https://github.com/opensearch-project/apm-topology/releases/download/v1.0.0/opensearch-apm-topology-1.0.0.tgz"
+    "@ps48/apm-topology": "^1.0.1"
   }
 }
 ```
@@ -49,7 +45,7 @@ Or add to your `package.json`:
 
 ```tsx
 import React from 'react';
-import { CelestialMap, getIcon } from '@opensearch/apm-topology';
+import { CelestialMap, getIcon } from '@ps48/apm-topology';
 
 function App() {
   const mapData = {

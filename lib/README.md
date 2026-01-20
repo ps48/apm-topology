@@ -6,7 +6,7 @@ An open-source React library for visualizing application performance monitoring 
 
 For consumers of this library:
 ```bash
-npm install @opensearch/apm-topology react react-dom
+npm install @ps48/apm-topology react react-dom
 ```
 
 For library development:
@@ -22,7 +22,7 @@ See the [main repository README](../README.md) for usage examples and the [examp
 
 **Required Component:**
 ```tsx
-import { CelestialMap, getIcon } from '@opensearch/apm-topology';
+import { CelestialMap, getIcon } from '@ps48/apm-topology';
 ```
 
 **Data Structure:**
@@ -111,7 +111,7 @@ This package is configured as a library:
 The library exports React components for building service topology visualizations.
 
 ```typescript
-import { Celestial, CelestialMapWidget } from '@opensearch/apm-topology';
+import { Celestial, CelestialMapWidget } from '@ps48/apm-topology';
 ```
 
 ## Technology Stack

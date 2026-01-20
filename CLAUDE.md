@@ -147,11 +147,11 @@ The `Celestial` component requires React Flow's provider context. Always use `Ce
 
 ```tsx
 // ✅ CORRECT
-import { CelestialMap } from '@opensearch/apm-topology';
+import { CelestialMap } from '@ps48/apm-topology';
 <CelestialMap map={{ root: { nodes, edges } }} />
 
 // ❌ WRONG - will cause "zustand provider" error
-import { Celestial } from '@opensearch/apm-topology';
+import { Celestial } from '@ps48/apm-topology';
 <Celestial map={{ root: { nodes, edges } }} />
 ```
 
@@ -192,7 +192,7 @@ Every node MUST have this exact structure:
 Icons must be retrieved using `getIcon()` helper from `lib/src/shared/utils/icons.utils.ts`:
 
 ```tsx
-import { getIcon } from '@opensearch/apm-topology';
+import { getIcon } from '@ps48/apm-topology';
 
 icon: getIcon('AWS::Lambda')
 icon: getIcon('AWS::DynamoDB')
@@ -361,7 +361,7 @@ The library uses `prepublishOnly` script that runs build and tests before npm pu
 npm publish
 ```
 
-The package is published to npm as `@opensearch/apm-topology`.
+The package is published to npm as `@ps48/apm-topology`.
 
 ## Key Dependencies
 
@@ -427,7 +427,7 @@ npm run dev         # Start dev server
 3. **Update example app** if version changed:
    Edit `example/package.json` to reference new version:
    ```json
-   "@opensearch/apm-topology": "file:../lib/opensearch-apm-topology-1.0.1.tgz"
+   "@ps48/apm-topology": "file:../lib/opensearch-apm-topology-1.0.1.tgz"
    ```
 
 4. **Create git tag:**

@@ -11,7 +11,7 @@ The OpenSearch APM Topology library (formerly APMCelestial) is being open-source
 
 ### Current State
 - **Library Location**: Standalone repository at `/Users/sgguruda/work/opensource/repos/apm-topology`
-- **Package Name**: `@opensearch/apm-topology`
+- **Package Name**: `@ps48/apm-topology`
 - **Status**: Ready for integration into OpenSearch ecosystem
 - **Next Step**: UI and server pieces will move to `dashboards-observability` plugin
 - **Challenge**: Determine optimal location for the topology visualization library
@@ -166,7 +166,7 @@ dashboards-traces/
 #### Architecture Diagram
 ```mermaid
 graph TD
-    A[apm-topology Repository] --> B[@opensearch/apm-topology npm package]
+    A[apm-topology Repository] --> B[@ps48/apm-topology npm package]
     B --> C[dashboards-observability]
     B --> D[dashboards-traces]
     B --> E[Future Plugins]
@@ -435,7 +435,7 @@ Based on comprehensive research and analysis, Option 3 is the clear recommendati
 6. Set up branch protection rules
 
 **Phase 2: Initial Release**
-1. Publish first official version to npm as `@opensearch/apm-topology@1.0.0`
+1. Publish first official version to npm as `@ps48/apm-topology@1.0.0`
 2. Create detailed release notes
 3. Update documentation with installation instructions
 4. Announce release in OpenSearch community channels
@@ -608,14 +608,14 @@ opensearch-dashboards (core)
 └── (no topology dependencies)
 
 dashboards-observability
-└── @opensearch/apm-topology@1.x
+└── @ps48/apm-topology@1.x
     ├── @xyflow/react@11.x
     ├── @dagrejs/dagre@1.x
     ├── react@18.x (peer dependency)
     └── react-dom@18.x (peer dependency)
 
 dashboards-traces
-└── @opensearch/apm-topology@1.x (same version recommended)
+└── @ps48/apm-topology@1.x (same version recommended)
     ├── @xyflow/react@11.x
     ├── @dagrejs/dagre@1.x
     ├── react@18.x (peer dependency)
@@ -819,7 +819,7 @@ This decision is based on:
    - Configure semantic-release for version management
 
 3. **Initial Release** (Week 2):
-   - Publish `@opensearch/apm-topology@1.0.0` to npm
+   - Publish `@ps48/apm-topology@1.0.0` to npm
    - Create release notes and documentation
    - Announce to OpenSearch community
 
@@ -832,7 +832,7 @@ This decision is based on:
 ### Success Criteria
 
 By the end of implementation:
-- ✅ Library available on npm as `@opensearch/apm-topology`
+- ✅ Library available on npm as `@ps48/apm-topology`
 - ✅ Used by both dashboards-observability and dashboards-traces
 - ✅ Zero increase in OSD core bundle size
 - ✅ Comprehensive documentation for consumers

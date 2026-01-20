@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-Common issues and solutions when using the `@opensearch/apm-topology` library.
+Common issues and solutions when using the `@ps48/apm-topology` library.
 
 ## Table of Contents
 - [Installation Issues](#installation-issues)
@@ -47,11 +47,11 @@ Always use `CelestialMap` as the top-level component, not `Celestial`:
 
 ```tsx
 // ❌ Wrong - causes zustand provider error
-import { Celestial } from '@opensearch/apm-topology';
+import { Celestial } from '@ps48/apm-topology';
 <Celestial nodes={nodes} edges={edges} />
 
 // ✅ Correct - CelestialMap provides the React Flow provider
-import { CelestialMap } from '@opensearch/apm-topology';
+import { CelestialMap } from '@ps48/apm-topology';
 <CelestialMap map={{ root: { nodes, edges } }} />
 ```
 
@@ -132,7 +132,7 @@ Setting `icon: null` instead of using the `getIcon()` helper.
 Import and use `getIcon()` for all service types:
 
 ```tsx
-import { getIcon } from '@opensearch/apm-topology';
+import { getIcon } from '@ps48/apm-topology';
 
 // ❌ Wrong - no icon displays
 icon: null,
@@ -207,7 +207,7 @@ edges: [
 
 **Error:**
 ```
-Cannot find module '@opensearch/apm-topology' or its type declarations
+Cannot find module '@ps48/apm-topology' or its type declarations
 ```
 
 **Solution:**
@@ -232,12 +232,12 @@ Import types from the correct location:
 
 ```tsx
 // ✅ Correct imports
-import { CelestialMap, getIcon } from '@opensearch/apm-topology';
+import { CelestialMap, getIcon } from '@ps48/apm-topology';
 import type {
   CelestialMapProps,
   CelestialCardProps,
   CelestialEdge
-} from '@opensearch/apm-topology';
+} from '@ps48/apm-topology';
 ```
 
 ## Styling Issues
@@ -386,7 +386,7 @@ The library includes React Flow and visualization components, which are relative
 
 1. **Use code splitting:**
    ```tsx
-   const CelestialMap = lazy(() => import('@opensearch/apm-topology').then(m => ({
+   const CelestialMap = lazy(() => import('@ps48/apm-topology').then(m => ({
      default: m.CelestialMap
    })));
    ```
@@ -400,8 +400,8 @@ The library includes React Flow and visualization components, which are relative
 3. **Enable tree-shaking:**
    ```tsx
    // Import only what you need
-   import { CelestialMap, getIcon } from '@opensearch/apm-topology';
-   // Not: import * as Topology from '@opensearch/apm-topology';
+   import { CelestialMap, getIcon } from '@ps48/apm-topology';
+   // Not: import * as Topology from '@ps48/apm-topology';
    ```
 
 ## Getting Help
@@ -419,7 +419,7 @@ If you encounter issues not covered here:
 
 ```tsx
 import React from 'react';
-import { CelestialMap, getIcon } from '@opensearch/apm-topology';
+import { CelestialMap, getIcon } from '@ps48/apm-topology';
 
 function App() {
   const mapData = {

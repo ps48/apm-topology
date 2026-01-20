@@ -1,10 +1,10 @@
 {
-  "name": "@opensearch/apm-topology",
-  "version": "1.0.0",
+  "name": "@ps48/apm-topology",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/opensearch-project/apm-topology"
+    "url": "https://github.com/ps48/apm-topology"
   },
   "type": "module",
   "engines": {

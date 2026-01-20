@@ -1,6 +1,6 @@
 # APM Topology Library - Comprehensive Example
 
-This example demonstrates all major features of the `@opensearch/apm-topology` library in a working React application.
+This example demonstrates all major features of the `@ps48/apm-topology` library in a working React application.
 
 ![APM Topology Example](../assets/example-app.png)
 
